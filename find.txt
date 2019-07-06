@@ -1,0 +1,643 @@
+FIND 2019-05-15 10:14:53.136636
+
+ALBUM 16770
+Following code was run:
+    const int *result = find(NULL, NULL, 7);
+result should be: (nil)
+Was: 0xfffffffffffffffc
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 18054
+find.c: In function ‘main’:
+find.c:22:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 3, 7);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int value){
+      ^
+find.c:22:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 3, 7);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int value){
+      ^
+find.c:32:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int value){
+      ^
+find.c:32:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int value){
+      ^
+find.c:42:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int value){
+      ^
+find.c:42:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int value){
+      ^
+find.c:52:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 5, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int value){
+      ^
+find.c:52:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 5, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int value){
+      ^
+cc1: all warnings being treated as errors
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 17808
+find.c: In function ‘find’:
+find.c:11:2: error: return discards ‘const’ qualifier from pointer target type [-Werror]
+  return e;
+  ^
+cc1: all warnings being treated as errors
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 17995
+find.c: In function ‘main’:
+find.c:22:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 3, 7);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int value)
+      ^
+find.c:22:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 3, 7);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int value)
+      ^
+find.c:32:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int value)
+      ^
+find.c:32:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int value)
+      ^
+find.c:42:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int value)
+      ^
+find.c:42:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int value)
+      ^
+find.c:52:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 5, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int value)
+      ^
+find.c:52:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 5, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int value)
+      ^
+cc1: all warnings being treated as errors
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 17728
+find.c: In function ‘main’:
+find.c:30:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 3, 7);
+         ^
+find.c:1:12: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *const find (int *begin, int *end, int number)
+            ^
+find.c:30:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 3, 7);
+         ^
+find.c:1:12: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *const find (int *begin, int *end, int number)
+            ^
+find.c:40:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 8, -5);
+         ^
+find.c:1:12: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *const find (int *begin, int *end, int number)
+            ^
+find.c:40:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 8, -5);
+         ^
+find.c:1:12: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *const find (int *begin, int *end, int number)
+            ^
+find.c:50:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 8, -5);
+         ^
+find.c:1:12: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *const find (int *begin, int *end, int number)
+            ^
+find.c:50:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 8, -5);
+         ^
+find.c:1:12: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *const find (int *begin, int *end, int number)
+            ^
+find.c:60:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 5, -5);
+         ^
+find.c:1:12: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *const find (int *begin, int *end, int number)
+            ^
+find.c:60:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 5, -5);
+         ^
+find.c:1:12: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *const find (int *begin, int *end, int number)
+            ^
+cc1: all warnings being treated as errors
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 17856
+find.c: In function ‘find’:
+find.c:7:13: error: return makes integer from pointer without a cast [-Werror]
+             return end;
+             ^
+cc1: all warnings being treated as errors
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 17275
+Following code was run:
+    const int *result = find(NULL, NULL, 7);
+result should be: (nil)
+Was: 0xfffffffffffffffc
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 18082
+find.c: In function ‘main’:
+find.c:20:5: error: implicit declaration of function ‘printf’ [-Werror=implicit-function-declaration]
+     printf("%li\n", find(table + 3, table + 7, -5) - table);
+     ^
+find.c:20:5: error: incompatible implicit declaration of built-in function ‘printf’ [-Werror]
+find.c:20:5: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+find.c:2:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *a, int *b, int c)
+      ^
+find.c:20:5: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+     printf("%li\n", find(table + 3, table + 7, -5) - table);
+     ^
+find.c:2:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *a, int *b, int c)
+      ^
+find.c: At top level:
+find.c:25:5: error: redefinition of ‘main’
+ int main() {}
+     ^
+find.c:16:5: note: previous definition of ‘main’ was here
+ int main()
+     ^
+cc1: all warnings being treated as errors
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 18053
+find.c: In function ‘main’:
+find.c:26:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 3, 7);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *pocz,int *kon,int liczba){
+      ^
+find.c:26:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 3, 7);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *pocz,int *kon,int liczba){
+      ^
+find.c:36:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *pocz,int *kon,int liczba){
+      ^
+find.c:36:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *pocz,int *kon,int liczba){
+      ^
+find.c:46:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *pocz,int *kon,int liczba){
+      ^
+find.c:46:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *pocz,int *kon,int liczba){
+      ^
+find.c:56:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 5, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *pocz,int *kon,int liczba){
+      ^
+find.c:56:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 5, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *pocz,int *kon,int liczba){
+      ^
+cc1: all warnings being treated as errors
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 18453
+find.c: In function ‘main’:
+find.c:18:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 3, 7);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int a){
+      ^
+find.c:18:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 3, 7);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int a){
+      ^
+find.c:28:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int a){
+      ^
+find.c:28:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int a){
+      ^
+find.c:38:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int a){
+      ^
+find.c:38:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int a){
+      ^
+find.c:48:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 5, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int a){
+      ^
+find.c:48:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 5, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end, int a){
+      ^
+cc1: all warnings being treated as errors
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 17673
+find.c: In function ‘main’:
+find.c:24:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 3, 7);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find (int *poczatek, int *koniec, int wartosc)
+      ^
+find.c:24:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 3, 7);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find (int *poczatek, int *koniec, int wartosc)
+      ^
+find.c:34:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find (int *poczatek, int *koniec, int wartosc)
+      ^
+find.c:34:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find (int *poczatek, int *koniec, int wartosc)
+      ^
+find.c:44:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find (int *poczatek, int *koniec, int wartosc)
+      ^
+find.c:44:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find (int *poczatek, int *koniec, int wartosc)
+      ^
+find.c:54:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 5, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find (int *poczatek, int *koniec, int wartosc)
+      ^
+find.c:54:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 5, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find (int *poczatek, int *koniec, int wartosc)
+      ^
+cc1: all warnings being treated as errors
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 18093
+find.c: In function ‘find’:
+find.c:3:22: error: initialization discards ‘const’ qualifier from pointer target type [-Werror]
+     for(int *pointer=start; pointer<end; ++pointer)
+                      ^
+find.c:10:5: error: return discards ‘const’ qualifier from pointer target type [-Werror]
+     return end;
+     ^
+cc1: all warnings being treated as errors
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 17830
+SUCCESS
+BITCOINS 1
+
+ALBUM 18111
+find.c: In function ‘main’:
+find.c:25:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 3, 7);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *p,int *k, int liczba)
+      ^
+find.c:25:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 3, 7);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *p,int *k, int liczba)
+      ^
+find.c:35:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *p,int *k, int liczba)
+      ^
+find.c:35:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *p,int *k, int liczba)
+      ^
+find.c:45:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *p,int *k, int liczba)
+      ^
+find.c:45:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *p,int *k, int liczba)
+      ^
+find.c:55:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 5, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *p,int *k, int liczba)
+      ^
+find.c:55:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 5, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *p,int *k, int liczba)
+      ^
+cc1: all warnings being treated as errors
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 18201
+find.c: In function ‘main’:
+find.c:25:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 3, 7);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end,int wart)
+      ^
+find.c:25:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 3, 7);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end,int wart)
+      ^
+find.c:35:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end,int wart)
+      ^
+find.c:35:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end,int wart)
+      ^
+find.c:45:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end,int wart)
+      ^
+find.c:45:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end,int wart)
+      ^
+find.c:55:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 5, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end,int wart)
+      ^
+find.c:55:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 5, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin, int *end,int wart)
+      ^
+cc1: all warnings being treated as errors
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 18019
+find.c: In function ‘find’:
+find.c:3:29: error: return discards ‘const’ qualifier from pointer target type [-Werror]
+         if(*begin == value) return begin;
+                             ^
+find.c:5:5: error: return discards ‘const’ qualifier from pointer target type [-Werror]
+     return end;
+     ^
+cc1: all warnings being treated as errors
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 17078
+Following code was run:
+    const int *result = find(NULL, NULL, 7);
+result should be: (nil)
+Was: 0xfffffffffffffffc
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17768
+SUCCESS
+BITCOINS 1
+
+ALBUM 18283
+find.c: In function ‘main’:
+find.c:25:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 3, 7);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *p,int *k, int liczba)
+      ^
+find.c:25:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 3, 7);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *p,int *k, int liczba)
+      ^
+find.c:35:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *p,int *k, int liczba)
+      ^
+find.c:35:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *p,int *k, int liczba)
+      ^
+find.c:45:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *p,int *k, int liczba)
+      ^
+find.c:45:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *p,int *k, int liczba)
+      ^
+find.c:55:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 5, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *p,int *k, int liczba)
+      ^
+find.c:55:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 5, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *p,int *k, int liczba)
+      ^
+cc1: all warnings being treated as errors
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 18154
+find.c: In function ‘main’:
+find.c:25:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 3, 7);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin,int *end,int x)
+      ^
+find.c:25:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 3, 7);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin,int *end,int x)
+      ^
+find.c:35:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin,int *end,int x)
+      ^
+find.c:35:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin,int *end,int x)
+      ^
+find.c:45:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin,int *end,int x)
+      ^
+find.c:45:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 8, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin,int *end,int x)
+      ^
+find.c:55:9: error: passing argument 1 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 5, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin,int *end,int x)
+      ^
+find.c:55:9: error: passing argument 2 of ‘find’ discards ‘const’ qualifier from pointer target type [-Werror]
+         const int *result = find(array + 3, array + 5, -5);
+         ^
+find.c:1:6: note: expected ‘int *’ but argument is of type ‘const int *’
+ int *find(int *begin,int *end,int x)
+      ^
+cc1: all warnings being treated as errors
+COMPILATION ERROR
+BITCOINS 0
+

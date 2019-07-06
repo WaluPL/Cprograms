@@ -1,0 +1,238 @@
+SELECTION_SORT 2019-04-03 08:55:39.461109
+
+ALBUM 18054
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17719
+SUCCESS
+BITCOINS 1
+
+ALBUM 17808
+SUCCESS
+BITCOINS 1
+
+ALBUM 17995
+selection_sort.c: In function ‘selection_sort’:
+selection_sort.c:34:29: warning: ‘return’ with a value, in function returning void [enabled by default]
+         if (wartownik == 0){return 0;}
+                             ^
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17728
+SUCCESS
+BITCOINS 1
+
+ALBUM 17275
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 18453
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 18018
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6', '4196208', '0', '4195584'], ['-10', '-7', '5', '6', '4196208', '0', '4195584'], ['-10', '-7', '5', '6', '4196208', '0', '4195584'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17673
+selection_sort.c: In function ‘selection_sort’:
+selection_sort.c:24:1: warning: return makes integer from pointer without a cast [enabled by default]
+ return tablica;
+ ^
+SUCCESS
+BITCOINS 1
+
+ALBUM 18093
+Following code was run:
+    int array[] = {20, 20, 20, 20, 20, 20, 20};
+    selection_sort(array, 7);
+Standard output should be:
+[[]]
+Standard output was:
+[['0', '20', '20', '20', '20', '20', '20'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17957
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 18292
+SUCCESS
+BITCOINS 1
+
+ALBUM 17830
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Segmentation fault
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 18180
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Segmentation fault
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 18201
+selection_sort.c:2:1: warning: return type defaults to ‘int’ [enabled by default]
+ selection_sort(int table[],int size)
+ ^
+SUCCESS
+BITCOINS 1
+
+ALBUM 18019
+SUCCESS
+BITCOINS 1
+
+ALBUM 18412
+selection_sort.c: In function ‘selection_sort’:
+selection_sort.c:25:1: warning: return makes integer from pointer without a cast [enabled by default]
+ return tablica;
+ ^
+selection_sort.c: At top level:
+selection_sort.c:36:5: error: redefinition of ‘main’
+ int main() {
+     ^
+selection_sort.c:28:5: note: previous definition of ‘main’ was here
+ int main()
+     ^
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 16844
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17602
+Following code was run:
+    int array[] = {7, -6, 1, 7, 23, -5, -100, 2, 40, 44};
+    selection_sort(array, 10);
+Standard output should be:
+[['-100', '-6', '1', '7', '23', '-5', '7', '2', '40', '44'], ['-100', '-6', '-5', '7', '23', '1', '7', '2', '40', '44'], ['-100', '-6', '-5', '1', '23', '7', '7', '2', '40', '44'], ['-100', '-6', '-5', '1', '2', '7', '7', '23', '40', '44'], []]
+Standard output was:
+[['-100', '-6', '1', '7', '23', '-5', '7', '2', '40', '44'], ['-100', '-6', '1', '7', '23', '-5', '7', '2', '40', '44'], ['-100', '-6', '-5', '7', '23', '1', '7', '2', '40', '44'], ['-100', '-6', '-5', '1', '23', '7', '7', '2', '40', '44'], ['-100', '-6', '-5', '1', '2', '7', '7', '23', '40', '44'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17237
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17983
+SUCCESS
+BITCOINS 1
+
+ALBUM 17898
+SUCCESS
+BITCOINS 1
+
+ALBUM 17768
+Following code was run:
+    int array[] = {7, -6, 1, 7, 23, -5, -100, 2, 40, 44};
+    selection_sort(array, 10);
+Standard output should be:
+[['-100', '-6', '1', '7', '23', '-5', '7', '2', '40', '44'], ['-100', '-6', '-5', '7', '23', '1', '7', '2', '40', '44'], ['-100', '-6', '-5', '1', '23', '7', '7', '2', '40', '44'], ['-100', '-6', '-5', '1', '2', '7', '7', '23', '40', '44'], []]
+Standard output was:
+[['-100', '-6', '1', '7', '23', '-5', '7', '2', '40', '44'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17902
+SUCCESS
+BITCOINS 1
+
+ALBUM 17868
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17274
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10-756'], ['-10-756'], ['-10-756'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 18154
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+

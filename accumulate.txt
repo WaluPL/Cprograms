@@ -1,0 +1,154 @@
+ACCUMULATE 2019-05-15 10:08:58.501620
+
+ALBUM 16770
+Following code was run:
+    double array[] = {2.3, -1.5, 15.1, 0.3, 8, 0, 12.5, -0.5, 9.7, 10.5};
+    accumulate(array + 2, array + 7);
+array should be: {2.3, -1.5, 15.1, 15.4, 23.4, 23.4, 35.9, -0.5, 9.7, 10.5}
+Was: {2.3, -1.5, 13.6, 13.9, 21.9, 21.9, 34.4, -0.5, 9.7, 10.5}
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 18054
+accumulate.c:1:1: error: return type defaults to ‘int’ [-Werror]
+ accumulate(double *begin, double *end){
+ ^
+cc1: all warnings being treated as errors
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 17808
+Following code was run:
+    double array[] = {2.3, -1.5, 15.1, 0.3, 8};
+    accumulate(array, array + 5);
+array should be: {2.3, 0.8, 15.9, 16.2, 24.2}
+Was: {2.3, 0.8, 18.2, 21.6, 50.9}
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17995
+SUCCESS
+BITCOINS 1
+
+ALBUM 17728
+accumulate.c: In function ‘accumulate’:
+accumulate.c:6:28: error: initialization from incompatible pointer type [-Werror]
+     for (double *pointer = begin; pointer < end; ++pointer)
+                            ^
+accumulate.c:6:43: error: comparison of distinct pointer types lacks a cast [-Werror]
+     for (double *pointer = begin; pointer < end; ++pointer)
+                                           ^
+cc1: all warnings being treated as errors
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 17856
+SUCCESS
+BITCOINS 1
+
+ALBUM 17275
+Following code was run:
+    double array[] = {2.3, -1.5, 15.1, 0.3, 8, 0, 12.5, -0.5, 9.7, 10.5};
+    accumulate(array + 2, array + 7);
+array should be: {2.3, -1.5, 15.1, 15.4, 23.4, 23.4, 35.9, -0.5, 9.7, 10.5}
+Was: {2.3, -1.5, 13.6, 13.9, 21.9, 21.9, 34.4, -0.5, 9.7, 10.5}
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 18053
+accumulate.c: In function ‘accumulate’:
+accumulate.c:4:24: error: initialization from incompatible pointer type [-Werror]
+  for(double *pointer = pocz; pointer < koniec; ++pointer){
+                        ^
+accumulate.c:4:38: error: comparison of distinct pointer types lacks a cast [-Werror]
+  for(double *pointer = pocz; pointer < koniec; ++pointer){
+                                      ^
+cc1: all warnings being treated as errors
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 18453
+accumulate.c: In function ‘accumulate’:
+accumulate.c:2:28: error: initialization from incompatible pointer type [-Werror]
+     for (double *pointer = begin; pointer + 1 < end; ++pointer){
+                            ^
+accumulate.c:2:47: error: comparison of distinct pointer types lacks a cast [-Werror]
+     for (double *pointer = begin; pointer + 1 < end; ++pointer){
+                                               ^
+cc1: all warnings being treated as errors
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 16845
+SUCCESS
+BITCOINS 1
+
+ALBUM 17673
+Following code was run:
+    double array[] = {2.3, -1.5, 15.1, 0.3, 8, 0, 12.5, -0.5, 9.7, 10.5};
+    accumulate(array + 2, array + 7);
+array should be: {2.3, -1.5, 15.1, 15.4, 23.4, 23.4, 35.9, -0.5, 9.7, 10.5}
+Was: {2.3, -1.5, 13.6, 13.9, 21.9, 21.9, 34.4, -0.5, 9.7, 10.5}
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 18093
+accumulate.c: In function ‘accumulate’:
+accumulate.c:5:26: error: initialization from incompatible pointer type [-Werror]
+     for (double *pointer=start; pointer<koniec; ++pointer)
+                          ^
+accumulate.c:5:40: error: comparison of distinct pointer types lacks a cast [-Werror]
+     for (double *pointer=start; pointer<koniec; ++pointer)
+                                        ^
+cc1: all warnings being treated as errors
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 17830
+SUCCESS
+BITCOINS 1
+
+ALBUM 18111
+SUCCESS
+BITCOINS 1
+
+ALBUM 18201
+Segmentation fault
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 18019
+SUCCESS
+BITCOINS 1
+
+ALBUM 17602
+SUCCESS
+BITCOINS 1
+
+ALBUM 17078
+Following code was run:
+    double array[] = {2.3, -1.5, 15.1, 0.3, 8, 0, 12.5, -0.5, 9.7, 10.5};
+    accumulate(array + 2, array + 7);
+array should be: {2.3, -1.5, 15.1, 15.4, 23.4, 23.4, 35.9, -0.5, 9.7, 10.5}
+Was: {2.3, -1.5, 13.6, 13.9, 21.9, 21.9, 34.4, -0.5, 9.7, 10.5}
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17768
+Segmentation fault
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 18283
+SUCCESS
+BITCOINS 1
+
+ALBUM 18154
+Following code was run:
+    double array[] = {2.3, -1.5, 15.1, 0.3, 8, 0, 12.5, -0.5, 9.7, 10.5};
+    accumulate(array + 2, array + 7);
+array should be: {2.3, -1.5, 15.1, 15.4, 23.4, 23.4, 35.9, -0.5, 9.7, 10.5}
+Was: {2.3, -1.5, 13.6, 13.9, 21.9, 21.9, 34.4, -0.5, 9.7, 10.5}
+EXECUTION ERROR
+BITCOINS 0
+

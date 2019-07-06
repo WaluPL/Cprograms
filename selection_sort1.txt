@@ -1,0 +1,225 @@
+SELECTION_SORT 2019-03-27 14:25:50.427760
+
+ALBUM 18054
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17719
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17808
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17995
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17728
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 18018
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6', '4196208', '0', '4195584'], ['-10', '-7', '5', '6', '4196208', '0', '4195584'], ['-10', '-7', '5', '6', '4196208', '0', '4195584'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17673
+selection_sort.c: In function ‘sortowanie’:
+selection_sort.c:24:1: warning: return makes integer from pointer without a cast [enabled by default]
+ return tablica;
+ ^
+selection_sort.c: In function ‘main’:
+selection_sort.c:32:5: warning: implicit declaration of function ‘selection_sort’ [-Wimplicit-function-declaration]
+     selection_sort(array, size); }
+     ^
+/tmp/cckMCBlJ.o: In function `main':
+selection_sort.c:(.text+0x18b): undefined reference to `selection_sort'
+collect2: error: ld returned 1 exit status
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 18093
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 18292
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17830
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Segmentation fault
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 18180
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 18201
+selection_sort.c:2:1: warning: return type defaults to ‘int’ [enabled by default]
+ selection_sort(int table[],int size)
+ ^
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 18019
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6', '4196208', '0', '4195584'], ['-10', '-7', '5', '6', '4196208', '0', '4195584'], ['-10', '-7', '5', '6', '4196208', '0', '4195584'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 18412
+selection_sort.c:28:5: error: redefinition of ‘main’
+ int main() {
+     ^
+selection_sort.c:20:5: note: previous definition of ‘main’ was here
+ int main() {
+     ^
+COMPILATION ERROR
+BITCOINS 0
+
+ALBUM 17602
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-7', '-10', '5', '6'], ['5', '-10', '-7', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17237
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17768
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6']]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17902
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 17868
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
+ALBUM 18154
+Following code was run:
+    int array[] = {-10, -7, 5, 6};
+    selection_sort(array, 4);
+Standard output should be:
+[[]]
+Standard output was:
+[['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], ['-10', '-7', '5', '6'], []]
+EXECUTION ERROR
+BITCOINS 0
+
